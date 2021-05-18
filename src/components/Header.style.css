@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+}
+
+.menu1 {
+    display: block;
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+
+.menu1:hover {
+    background-color: #eeff00;
+    color: #000000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 24px;
+    transition-duration: 0.3s;
+}
+
+.activeMenu1 {
+    color: #eeff00;
+}
