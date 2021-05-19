@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.style.css";
 import BurgerMenu from "./BurgerMenu.jsx";
+import HiddenMenu from "./HiddenMenu.jsx";
 
 function Header() {
+    const [open, setOpen] = useState(false);
+
+    const openHiddenMenu = e => {
+        e.preventDefault();
+        setOpen(!open);
+    };
+
     return(
         <div className="header">
             <div className="bigMenu">
@@ -12,7 +20,10 @@ function Header() {
                 <NavLink to="/calculator" className="menu1" activeClassName="activeMenu1">CALCULATOR</NavLink>
                 <NavLink to="/contacts" className="menu1" activeClassName="activeMenu1">CONTACTS</NavLink>
             </div>
-            <BurgerMenu />
+            <button onClick={openHiddenMenu} className="burgerButton" id={open ? "burgerOpen" : "burgerClosed"}>
+                <BurgerMenu />
+            </button>
+            <HiddenMenu open={open} />
         </div>
     );
 };

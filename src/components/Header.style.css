@@ -3,7 +3,7 @@
     position: fixed;
     width: 100%;
     text-align: center;
-    background-color: #000000;
+    background-color: #000000;;
     top: 0;
     z-index: 999;
 }
@@ -42,17 +42,23 @@
     color: #eeff00;
 }
 
-.burgerMenu {
-    display: none;
+.burgerButton {
+    background-color: transparent;
+    border: none;
+}
+
+#burgerClosed {
+    transform: rotate(0deg);
+    transition-duration: 0.5s;
+}
+
+#burgerOpen {
+    transform: rotate(90deg);
+    transition-duration: 0.5s;
 }
 
 @media only screen and (max-width: 860px) {
     .bigMenu {
         display: none;
-    }
-
-    .burgerMenu {
-        display: block;
-        color: red;
     }
 }

@@ -1,0 +1,9 @@
+.hiddenMenu {
+    display: none;
+}
+
+/*@media only screen and (max-width: 860px) {
+    .hiddenMenu {
+        display: block;
+    }
+}*/
