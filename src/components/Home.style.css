@@ -11,4 +11,52 @@
     font-size: 40px;
     color: #ffffff;
     text-align: center;
+    margin-bottom: 80px;
+}
+
+.homeBody {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+#logoSide {
+    display: inline-block;
+    width: 40%;
+    margin-top: 40px;
+}
+
+#logoSide img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+}
+
+#homeText {
+    display: inline-block;
+    width: 45%;
+    position: absolute;
+    margin-left: 50px;
+}
+
+#homeText p {
+    font-size: 20px;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    color: #ffffff;
+}
+
+#homeImage {
+    display: block;
+    width: 100%;
+    margin-top: 250px;
+    padding-bottom: 120px;
+}
+
+#homeImage img {
+    display: block;
+    width: 80%;
+    margin: auto;
 }
