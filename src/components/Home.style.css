@@ -46,12 +46,13 @@
     line-height: 2rem;
     letter-spacing: 0.2rem;
     color: #ffffff;
+    margin-bottom: 500px;
 }
 
 #homeImage {
     display: block;
     width: 100%;
-    margin-top: 250px;
+    margin-top: 300px;
     padding-bottom: 120px;
 }
 
@@ -59,4 +60,82 @@
     display: block;
     width: 80%;
     margin: auto;
+}
+
+@media only screen and (max-width: 1250px) {
+    #homeImage {
+        margin-top: 500px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #logoSide {
+        display: block;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #logoSide img {
+        width: 40%;
+    }
+
+    #homeText {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #homeText p {
+        width: 90%;
+    }
+
+    #homeImage {
+        margin-top: 700px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home h1 {
+        margin-bottom: 0px;
+    }
+
+    #homeText {
+        margin-left: 5px;
+    }
+
+    #homeImage {
+        margin-top: 850px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #homeText p {
+        width: 98%;
+        line-height: 1.3rem;
+        font-size: 15px;
+    }
+
+    #homeImage {
+        margin-top: 500px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .home h1 {
+        font-size: 30px;
+    }
+
+    #homeImage {
+        margin-top: 600px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .home h1 {
+        font-size: 25px;
+    }
+
+    #homeImage {
+        margin-top: 750px;
+    }
 }
