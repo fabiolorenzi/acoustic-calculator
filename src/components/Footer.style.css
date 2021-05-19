@@ -1,0 +1,17 @@
+#footer {
+    display: block;
+    background-color: #000000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: #000000 solid 1px;
+}
+
+#footer a {
+    display: block;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 50px;
+}
