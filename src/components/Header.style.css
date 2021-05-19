@@ -35,3 +35,18 @@
 .activeMenu1 {
     color: #eeff00;
 }
+
+.burgerMenu {
+    display: none;
+}
+
+@media only screen and (max-width: 860px) {
+    .menu1 {
+        display: none;
+    }
+
+    .burgerMenu {
+        display: block;
+        color: red;
+    }
+}
