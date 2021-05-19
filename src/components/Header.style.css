@@ -45,6 +45,7 @@
 .burgerButton {
     background-color: transparent;
     border: none;
+    display: none;
 }
 
 #burgerClosed {
@@ -60,5 +61,10 @@
 @media only screen and (max-width: 860px) {
     .bigMenu {
         display: none;
+    }
+
+    .burgerButton {
+        display: block;
+        margin: auto;
     }
 }
