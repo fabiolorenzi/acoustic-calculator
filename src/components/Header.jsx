@@ -23,7 +23,7 @@ function Header() {
             <button onClick={openHiddenMenu} className="burgerButton" id={open ? "burgerOpen" : "burgerClosed"}>
                 <BurgerMenu />
             </button>
-            <HiddenMenu open={open} />
+            <div id="hiddenMenuContainer" onClick={openHiddenMenu}><HiddenMenu open={open} /></div>
         </div>
     );
 };

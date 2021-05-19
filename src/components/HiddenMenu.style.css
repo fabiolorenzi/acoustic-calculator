@@ -1,9 +1,29 @@
 .hiddenMenu {
     display: none;
+    width: 250px;
+    margin: auto;
 }
 
-/*@media only screen and (max-width: 860px) {
-    .hiddenMenu {
-        display: block;
-    }
-}*/
+#hiddenMenuClosed {
+    display: none;
+}
+
+#hiddenMenuOpen {
+    display: block;
+}
+
+.menu2 {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+}
+
+.activeMenu2 {
+    color: #eeff00;
+}
