@@ -17,7 +17,7 @@ function Header() {
             <div className="bigMenu">
                 <NavLink to="/" exact className="menu1" activeClassName="activeMenu1">HOME</NavLink>
                 <NavLink to="/tutorial" className="menu1" activeClassName="activeMenu1">TUTORIAL</NavLink>
-                <NavLink to="/calculator" className="menu1" activeClassName="activeMenu1">CALCULATOR</NavLink>
+                <NavLink to="/calculators" className="menu1" activeClassName="activeMenu1">CALCULATORS</NavLink>
                 <NavLink to="/contacts" className="menu1" activeClassName="activeMenu1">CONTACTS</NavLink>
             </div>
             <button onClick={openHiddenMenu} className="burgerButton" id={open ? "burgerOpen" : "burgerClosed"}>

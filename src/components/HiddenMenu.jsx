@@ -7,7 +7,7 @@ function HiddenMenu({open}) {
         <div className="hiddenMenu" id={open ? "hiddenMenuOpen" : "hiddenMenuClosed"}>
             <NavLink to="/" exact className="menu2" activeClassName="activeMenu2">HOME</NavLink>
             <NavLink to="/tutorial" className="menu2" activeClassName="activeMenu2">TUTORIAL</NavLink>
-            <NavLink to="/calculator" className="menu2" activeClassName="activeMenu2">CALCULATOR</NavLink>
+            <NavLink to="/calculators" className="menu2" activeClassName="activeMenu2">CALCULATORS</NavLink>
             <NavLink to="/contacts" className="menu2" activeClassName="activeMenu2">CONTACTS</NavLink>
         </div>
     );
