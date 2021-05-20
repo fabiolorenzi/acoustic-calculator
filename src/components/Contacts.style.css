@@ -1,0 +1,101 @@
+.contacts {
+    display: block;
+    background-image: url("./img/background_01.jpg");
+    width: 100%;
+    padding-top: 80px;
+}
+
+.contacts h1 {
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contactsBody {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+#logoSideContacts {
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#logoSideContacts img {
+    display: block;
+    width: 25%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+#contactsText {
+    display: block;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#contactsText p {
+    font-size: 20px;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#contactsTitle {
+    font-size: 25px !important;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contactsLink {
+    color: #fff000;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 20px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    #contactsText {
+        width: 400px;
+    }
+
+    #contactsText p {
+        font-size: 15px;
+    }
+    
+    #contactsTitle {
+        font-size: 20px !important;
+    }
+    
+    .contactsLink {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #contactsText {
+        width: 100%;
+    }
+
+    #contactsText p {
+        font-size: 12px;
+    }
+    
+    #contactsTitle {
+        font-size: 17px !important;
+    }
+    
+    .contactsLink {
+        font-size: 12px;
+    }
+}
