@@ -1,0 +1,20 @@
+.calculators {
+    display: block;
+    background-image: url("./img/background_01.jpg");
+    width: 100%;
+    padding-top: 80px;
+}
+
+.calculators h1 {
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.calculatorsBody {
+    display: block;
+    width: 100%;
+}
