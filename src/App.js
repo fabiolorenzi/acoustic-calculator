@@ -5,6 +5,7 @@ import Header from "./components/Header.jsx";
 import Home from "./components/Home.jsx";
 import Contacts from "./components/Contacts.jsx";
 import Calculators from "./components/Calculators.jsx";
+import FrequenceOfResonance from "./components/FrequenceOfResonance.jsx"
 import Footer from "./components/Footer.jsx";
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/contacts" component={Contacts} />
-                <Route path="/calculators" component={Calculators} />
+                <Route exact path="/calculators" component={Calculators} />
+                <Route path="/calculators/frequence-of-resonance" component={FrequenceOfResonance} />
             </Switch>
             <Footer />
         </div>

@@ -1,0 +1,30 @@
+.frequenceOfResonance {
+    display: block;
+    background-image: url("./img/background_01.jpg");
+    width: 100%;
+    padding-top: 80px;
+}
+
+.frequenceOfResonance h1 {
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.frequenceOfResonanceBody {
+    display: block;
+    width: 100%;
+}
+
+.frequenceOfResonanceBody form label {
+    color: white;
+}
+
+.frequenceOfResonanceResult h2,
+.frequenceOfResonanceResult h1,
+.frequenceOfResonanceResult p {
+    color: white;
+}
