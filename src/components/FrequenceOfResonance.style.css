@@ -3,6 +3,7 @@
     background-image: url("./img/background_01.jpg");
     width: 100%;
     padding-top: 80px;
+    padding-bottom: 150px;
 }
 
 .frequenceOfResonance h1 {
@@ -16,15 +17,106 @@
 
 .frequenceOfResonanceBody {
     display: block;
-    width: 100%;
+    width: 300px;
+    background-color: #505050;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px 10px 65px;
+    position: relative;
 }
 
-.frequenceOfResonanceBody form label {
-    color: white;
+#forBodyTitle {
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
 }
 
-.frequenceOfResonanceResult h2,
-.frequenceOfResonanceResult h1,
-.frequenceOfResonanceResult p {
-    color: white;
+.frequenceOfResonanceBody form div {
+    margin-bottom: 10px;
+}
+
+.frequenceOfResonanceBody label {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.frequenceOfResonanceBody input,
+.frequenceOfResonanceBody select {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    position: absolute;
+    right: 10px;
+    width: 180px;
+}
+
+.frequenceOfResonanceMeterSel select {
+    width: 185px;
+}
+
+.frequenceOfResonanceButtons {
+    margin-top: 20px;
+}
+
+.frequenceOfResonanceButtons button {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#forSubmitButton {
+    float: left;
+    background-color: #2bff00;
+    color: #000000;
+    transition-duration: 0.4s;
+}
+
+#forSubmitButton:hover {
+    background-color: #000000;
+    color: #fff000;
+    transition-duration: 0.4s;
+}
+
+#forResetButton {
+    float: right;
+    background-color: #ff0000;
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+
+#forResetButton:hover {
+    background-color: #000fff;
+    color: #fff000;
+    transition-duration: 0.4s;
+}
+
+.frequenceOfResonanceResult h1 {
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: -40px;
+}
+
+.frequenceOfResonanceResult div h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.forrGroupResult {
+    margin-bottom: 40px;
+}
+
+#forrLastGroupResult {
+    margin-bottom: 0;
+}
+
+.forrSingleResult {
+    font-weight: 500;
+    color: #ffffff;
 }

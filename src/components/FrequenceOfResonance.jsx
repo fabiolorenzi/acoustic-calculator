@@ -120,6 +120,7 @@ function FrequenceOfResponse() {
         <div className="frequenceOfResonance">
             <h1>FREQUENCE OF RESONANCE CALCULATOR</h1>
             <div className="frequenceOfResonanceBody">
+                <h2 id="forBodyTitle">Insert your data here</h2>
                 <form onSubmit={calculateFrequences}>
                     <div className="frequenceOfResonanceMeterSel">
                         <label htmlFor="meter">Unit</label>
@@ -141,8 +142,8 @@ function FrequenceOfResponse() {
                         <input type="number" name="height" step={0.1} min={0} value={dimensions.height} onChange={handleChange} />
                     </div>
                     <div className="frequenceOfResonanceButtons">
-                        <button type="submit">Calculate</button>
-                        <button onClick={resetData}>Reset</button>
+                        <button type="submit" id="forSubmitButton">Calculate</button>
+                        <button onClick={resetData} id="forResetButton">Reset</button>
                     </div>
                 </form>
                 {result.length.length > 0 ?
@@ -150,33 +151,39 @@ function FrequenceOfResponse() {
                         <h1>Result</h1>
                         <div className="frequenceOfResonanceResultLength">
                             <h2>Resonances on the length</h2>
-                            {result.length.map(resonance => {
-                                return(
-                                    <div className="forrSingleResult">
-                                        <p>{resonance} hz</p>
-                                    </div>
-                                );
-                            })}
+                            <div className="forrGroupResult">
+                                {result.length.map(resonance => {
+                                    return(
+                                        <div className="forrSingleResult">
+                                            <p>{resonance} hz</p>
+                                        </div>
+                                    );
+                                })}
+                            </div>
                         </div>
                         <div className="frequenceOfResonanceResultDepth">
                             <h2>Resonances on the depth</h2>
-                            {result.depth.map(resonance => {
-                                return(
-                                    <div className="forrSingleResult">
-                                        <p>{resonance} hz</p>
-                                    </div>
-                                );
-                            })}
+                            <div className="forrGroupResult">
+                                {result.depth.map(resonance => {
+                                    return(
+                                        <div className="forrSingleResult">
+                                            <p>{resonance} hz</p>
+                                        </div>
+                                    );
+                                })}
+                            </div>
                         </div>
                         <div className="frequenceOfResonanceResultHeight">
                             <h2>Resonances on the height</h2>
-                            {result.height.map(resonance => {
-                                return(
-                                    <div className="forrSingleResult">
-                                        <p>{resonance} hz</p>
-                                    </div>
-                                );
-                            })}
+                            <div className="forrGroupResult" id="forrLastGroupResult">
+                                {result.height.map(resonance => {
+                                    return(
+                                        <div className="forrSingleResult">
+                                            <p>{resonance} hz</p>
+                                        </div>
+                                    );
+                                })}
+                            </div>
                         </div>
                     </div>
                     : <div className="frequenceOfResonanceResult"></div>
