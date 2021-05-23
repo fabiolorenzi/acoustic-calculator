@@ -15,8 +15,16 @@
 }
 
 .calculatorsBody {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
+    padding-bottom: 80px;
+}
+
+.programSlotContainer {
+    display: block;
+    width: fit-content;
 }
 
 .programSlotContainer a {

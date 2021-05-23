@@ -22,3 +22,20 @@
     border: 1px solid #000000;
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 860px) {
+    .singleSlot {
+        width: 270px;
+        padding: 8px;
+    }
+    
+    .singleSlot h1 {
+        font-size: 25px;
+    }
+    
+    .singleSlot img {
+        display: block;
+        width: 250px;
+        height: 150px;
+    }
+}
