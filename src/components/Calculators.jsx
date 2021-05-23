@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Calculators.style.css";
 import ProgramSlot from "./ProgramSlot.jsx";
+
 import FrequenceOfResonanceImage from "./img/frequenceOfResonance_400x240.jpg";
 
 function Calculators() {
