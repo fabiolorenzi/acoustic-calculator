@@ -1,0 +1,32 @@
+.tutorials {
+    display: block;
+    background-image: url("./img/background_01.jpg");
+    width: 100%;
+    padding-top: 80px;
+}
+
+.tutorials h1 {
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.tutorialsBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.tutorialSlotContainer {
+    display: block;
+    width: fit-content;
+}
+
+.tutorialSlotContainer a {
+    text-decoration: none;
+}
