@@ -39,9 +39,8 @@
     width: 45%;
     position: absolute;
     top: 50px;
-    bottom: 900px;
+    bottom: 90px;
     margin-left: 50px;
-    overflow-x: hidden;
 }
 
 #homeText p {
