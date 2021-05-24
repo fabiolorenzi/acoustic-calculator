@@ -38,7 +38,10 @@
     display: inline-block;
     width: 45%;
     position: absolute;
+    top: 50px;
+    bottom: 900px;
     margin-left: 50px;
+    overflow-x: hidden;
 }
 
 #homeText p {
@@ -49,10 +52,35 @@
     margin-bottom: 500px;
 }
 
+.homeLinks {
+    display: block;
+    width: 38%;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.homeLinks h2 {
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.homeLinks div a {
+    color: #fff000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.homeLinks div p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
 #homeImage {
     display: block;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 100px;
     padding-bottom: 120px;
 }
 
@@ -60,12 +88,6 @@
     display: block;
     width: 80%;
     margin: auto;
-}
-
-@media only screen and (max-width: 1250px) {
-    #homeImage {
-        margin-top: 500px;
-    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -83,14 +105,33 @@
         display: block;
         width: 100%;
         text-align: center;
+        top: 343px;
     }
 
     #homeText p {
         width: 90%;
     }
 
+    .homeLinks {
+        margin: 550px auto 0;
+    }
+
+    .homeLinks h2 {
+        text-align: center !important;
+    }
+
     #homeImage {
-        margin-top: 700px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    #homeText {
+        bottom: 950px;
+    }
+
+    .homeLinks {
+        margin: 730px auto 0;
     }
 }
 
@@ -101,6 +142,11 @@
 
     #homeText {
         margin-left: 5px;
+        bottom: 1650px;
+    }
+
+    .homeLinks {
+        margin: 900px auto 0;
     }
 
     #homeImage {
@@ -109,10 +155,20 @@
 }
 
 @media only screen and (max-width: 500px) {
+    #homeText {
+        top: 200px;
+        bottom: 1200px;
+    }
+
     #homeText p {
         width: 98%;
         line-height: 1.3rem;
         font-size: 15px;
+    }
+
+    .homeLinks {
+        width: 90%;
+        margin: 450px auto 0;
     }
 
     #homeImage {
@@ -125,6 +181,15 @@
         font-size: 30px;
     }
 
+    #homeText {
+        top: 220px;
+        bottom: 1290px;
+    }
+
+    .homeLinks {
+        margin: 550px auto 0;
+    }
+
     #homeImage {
         margin-top: 600px;
     }
@@ -133,6 +198,14 @@
 @media only screen and (max-width: 375px) {
     .home h1 {
         font-size: 25px;
+    }
+
+    #homeText {
+        bottom: 1490px;
+    }
+
+    .homeLinks {
+        margin: 650px auto 0;
     }
 
     #homeImage {
